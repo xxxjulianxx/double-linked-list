@@ -1,6 +1,5 @@
 import java.util.*;
 
-// ----------------- Node of the doubly linked list -----------------
 class PlayerNode {
     String name;
     int score;
@@ -15,7 +14,6 @@ class PlayerNode {
     }
 }
 
-// ----------------- Doubly Linked List -----------------
 class DoublyLinkedList {
     private PlayerNode head;
     private PlayerNode tail;
@@ -79,7 +77,6 @@ class DoublyLinkedList {
     }
 }
 
-// ----------------- Fast Sums Game -----------------
 class FastSumsGame {
     private DoublyLinkedList ranking;
     private Scanner input;
@@ -170,7 +167,6 @@ class FastSumsGame {
     }
 }
 
-// ----------------- Main Class -----------------
 public class Main {
     public static void main(String[] args) {
         FastSumsGame game = new FastSumsGame();
